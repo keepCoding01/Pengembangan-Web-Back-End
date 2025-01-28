@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const hello = new Promise((resolve, reject) => {
+            //   setTimeout(() => {
+            //     resolve("Success!"); // Yay! Everything went well!
+            //   }, 500);
+            const link = 'https://jsonplaceholder.typicode.com/users';
+            const xhr = new XMLHttpRequest();
+            xhr.open('GET', link);
+            xhr.onload = () => {
+                if (xhr.status == 200) {
+                    resolve(xhr.response);
+                } else {
+                    reject('Err: Please try again.');
+                }
+            }
+            xhr.send();
+        });
+
+        // hello
+        //     .then((result) => {
+        //         result = JSON.parse(result);
+        //         console.log(result);
+        //     })
+        //     .catch(err => console.log(err));
+
+        const getUsers = async () => {
+            const url = "https://api.bukalapak.com/invoices";
+            try {
+                const response = await fetch(url);
+                if (!response.ok) {
+                    throw await response.json();
+                }
+                console.log(await response.json());
+            } catch (err) {
+                console.log(err); 
+                console.log(err.errors[0].message);
+            }
+        }
+
+        getUsers();
+
+        const addTodo = async () => {
+            const url = 'https://jsonplaceholder.typicode.com/posts';
+            const data = {
+                userId: 1,
+                title: 'New todo',
+                body: 'learning web backend API'
+            }
+            const response = await fetch(url, {
+                method: 'POST',
+                headers: {
+                    'content-type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            });
+
+            console.log(await response.json());
+        }
+
+        const updateTodo = async (id) => {
+            const url = 'https://jsonplaceholder.typicode.com/posts/' + id;
+            const data = {
+                userId: 1,
+                title: 'Update todo 10',
+                body: 'learning web backend API using nodeJS'
+            }
+            const response = await fetch(url, {
+                method: 'PUT',
+                headers: {
+                    'content-type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            });
+
+            console.log(await response.json());
+        }
+
+        const deleteTodo = async (id) => {
+            const url = 'https://jsonplaceholder.typicode.com/posts/' + id;
+            const response = await fetch(url, {
+                method: 'DELETE'
+            });
+
+            console.log(await response.json());
+        }
+        
+        addTodo();
+        updateTodo(10);
+        deleteTodo(10);
+
+        const getProvince = async () => {
+            const url = 'https://pro.rajaongkir.com/api/province';
+            const response = await fetch(url, {
+                headers: {
+                    key: 'abc'
+                }
+            });
+            console.log(await response.json());
+        }
+
+        getProvince();
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

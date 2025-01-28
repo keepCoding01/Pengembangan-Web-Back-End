@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Punny Web</title>
+    <style>
+      body {
+        text-align: center;
+        font-family: Arial, sans-serif;
+      }
+      #image-container {
+        margin-top: 20px;
+      }
+      #image-container img {
+        max-width: 80%;
+        height: auto;
+      }
+      button {
+        padding: 10px 20px;
+        margin: 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      button:disabled {
+        background-color: #a9a9a9;
+      }
+    </style>
+    <script>
+      let page = 1;
+
+      const getPics = async (p) => {
+        page += p;
+        document.getElementById("prev").disabled = page === 1;
+
+        const req = await fetch(`https://picsum.photos/v2/list?page=${page}&limit=4`);
+        const data = await req.json();
+
+        const img = document.getElementById("image");
+        const author = document.getElementById("author");
+        img.src = data[0].download_url;
+        author.textContent = data[0].author;
+      };
+    </script>
+  </head>
+  <body>
+    <h1>Punny Web</h1>
+    <div>
+      <button onclick="getPics(-1)" id="prev" disabled><< Previous</button>
+      <span id="author"></span>
+      <button onclick="getPics(1)">Next >></button>
+    </div>
+    <div id="image-container">
+      <img id="image" />
+    </div>
+  </body>
+</html>

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Table</title>
+   
+</head>
+ 
+<body>
+    <h1>Product List</h1>
+    <script>
+        var products = [
+            {
+                id: 4940596,
+                name: "Eagle Sepatu Lifestyle Golden - Lifestyle Shoes",
+                category: { id: 2431, name: "Fashion Pria" },
+                price: { base: 269900, discountPrice: 189470 },
+                stock: 5,
+                imgs: ["https://s1.bukalapak.com/img/15410798203/medium/data.jpeg"]
+            },
+            {
+                id: 4940607,
+                name: "Eagle Sepatu Sneakers Lifestyle Enviro - Lifestyle Shoes",
+                category: { id: 2431, name: "Fashion Pria" },
+                price: { base: 239900, discountPrice: 194319 },
+                stock: 7,
+                imgs: ["https://s2.bukalapak.com/img/29873710303/medium/data.jpeg"]
+            },
+            {
+                id: 4940622,
+                name: "Sepatu Eagle Monza Lifestyle Shoes - Hitam/Putih",
+                category: { id: 2431, name: "Fashion Pria" },
+                price: { base: 279900, discountPrice: 201528 },
+                stock: 2,
+                imgs: ["https://s4.bukalapak.com/img/95125478203/medium/data.jpeg"]
+            },
+            {
+                id: 4940628,
+                name: "Sepatu Eagle Monza Lifestyle Shoes - Biru/Putih",
+                category: { id: 2431, name: "Fashion Pria" },
+                price: { base: 279900, discountPrice: 201528 },
+                stock: 3,
+                imgs: ["https://s0.bukalapak.com/img/09976499203/medium/data.jpeg"]
+            },
+            {
+                id: 4940630,
+                name: "Eagle Sepatu Sneakers Lifestyle Arena - Lifestyle Shoes",
+                category: { id: 2431, name: "Fashion Pria" },
+                price: { base: 269900, discountPrice: 199186 },
+                stock: 6,
+                imgs: ["https://s4.bukalapak.com/img/44900798203/medium/data.jpeg"]
+            },
+            {
+                id: 4940336,
+                name: "SANDAL ADIDAS ADILETTE 22 - CREAM WHITE - IG5917",
+                category: { id: 8593, name: "Lainnya" },
+                price: { base: 900000, discountPrice: 549999 },
+                stock: 4,
+                imgs: ["https://s1.bukalapak.com/img/13386818203/medium/data.jpeg"]
+            },
+            {
+                id: 4940338,
+                name: "Nokia E3110 True Wireless Earbuds Bluetooth Earphone TWS HD",
+                category: { id: 8578, name: "Lainnya" },
+                price: { base: 899000, discountPrice: 159999 },
+                stock: 3,
+                imgs: ["https://s2.bukalapak.com/img/28405997203/medium/data.jpeg"]
+            },
+            {
+                id: 4940340,
+                name: "Little B By MacBear Baju Bayi Pippy Collection Newborn-12 bulan - bears",
+                category: { id: 1369, name: "Fashion Anak" },
+                price: { base: 111900, discountPrice: 14700 },
+                stock: 3,
+                imgs: ["https://s0.bukalapak.com/img/07155878203/medium/data.jpeg"]
+            },
+            {
+                id: 4940342,
+                name: "SEPATU NIKE CORTEZ - VIVID SULFUR - DZ2795-700",
+                category: { id: 8593, name: "Lainnya" },
+                price: { base: 1399000, discountPrice: 959000 },
+                stock: 3,
+                imgs: ["https://s3.bukalapak.com/img/38403149203/medium/data.jpeg"]
+            },
+            {
+                id: 4940344,
+                name: "SEPATU NIKE AIR FORCE 1 07 WOMENS - WHITE - DD8959-113",
+                category: { id: 8593, name: "Lainnya" },
+                price: { base: 1549000, discountPrice: 905000 },
+                stock: 2,
+                imgs: ["https://s1.bukalapak.com/img/66186818203/medium/data.jpeg"]
+            },
+            {
+                id: 4940346,
+                name: "SOMETHINC Fabric Lasting Tint - Pumpkin",
+                category: { id: 8359, name: "Lainnya" },
+                price: { base: 79000, discountPrice: 69482 },
+                stock: 3,
+                imgs: ["https://s3.bukalapak.com/img/85873577203/medium/data.jpeg"]
+            },
+            {
+                id: 4940348,
+                name: "MacBear Baju Anak-Remaja Laki-laki Kaos Polo Anak-Remaja Animal Collection Puppy Cute 6 Bulan-12 Tahun",
+                category: { id: 1363, name: "Fashion Anak" },
+                price: { base: 239900, discountPrice: 49000 },
+                stock: 2,
+                imgs: ["https://s4.bukalapak.com/img/96888878203/medium/data.jpeg"]
+            },
+            {
+                id: 4940350,
+                name: "SOMETHINC Fabric Lasting Tint - Calliope",
+                category: { id: 8359, name: "Lainnya" },
+                price: { base: 79000, discountPrice: 69482 },
+                stock: 3,
+                imgs: ["https://s3.bukalapak.com/img/83083577203/medium/data.jpeg"]
+            },
+            {
+                id: 4940354,
+                name: "SEPATU SALOMON SPEEDVERSE PRG - MAJOR BROWN/ BLACK - 417544",
+                category: { id: 8593, name: "Lainnya" },
+                price: { base: 3199000, discountPrice: 2199999 },
+                stock: 1,
+                imgs: ["https://s4.bukalapak.com/img/91176818203/medium/data.jpeg"]
+            },
+            {
+                id: 4940356,
+                name: "Little B By MacBear Baju Bayi Pippy Collection Newborn-12 bulan - animals",
+                category: { id: 1369, name: "Fashion Anak" },
+                price: { base: 115900, discountPrice: 14700 },
+                stock: 3,
+                imgs: ["https://s0.bukalapak.com/img/07120955203/medium/data.jpeg"]
+            },
+            {
+                id: 4940358,
+                name: "Parfum Mykonos Senja 100 ml",
+                category: { id: 8359, name: "Lainnya" },
+                price: { base: 349000, discountPrice: 244902 },
+                stock: 2,
+                imgs: ["https://s1.bukalapak.com/img/63563050303/medium/data.jpeg"]
+            },
+            {
+                id: 4940360,
+                name: "SEPATU ADIDAS NMD R1 WOMENS - CORE BLACK - HQ4247",
+                category: { id: 8593, name: "Lainnya" },
+                price: { base: 2300000, discountPrice: 1295000 },
+                stock: 4,
+                imgs: ["https://s3.bukalapak.com/img/33786818203/medium/data.jpeg"]
+            },
+            {
+                id: 4940362,
+                name: "MacBear Baju Anak-Remaja Laki-laki Kaos Polo Anak-Remaja Space Collection Galactic Journey UFO 6 Bulan-12 Tahun",
+                category: { id: 1363, name: "Fashion Anak" },
+                price: { base: 239900, discountPrice: 49000 },
+                stock: 18,
+                imgs: ["https://s2.bukalapak.com/img/75309878203/medium/data.jpeg"]
+            },
+            {
+                id: 4940364,
+                name: "Celana Anak Laki-laki Celana Panjang Anak New Arrival Print Flash",
+                category: { id: 1363, name: "Fashion Anak" },
+                price: { base: 179900, discountPrice: 58800 },
+                stock: 9,
+                imgs: ["https://s0.bukalapak.com/img/56606585203/medium/data.jpeg"]
+            },
+            {
+                id: 4940366,
+                name: "Kanso Living Pompa Air Galon Elektrik Dispenser Rechargeable USB A001 - Silver",
+                category: { id: 174, name: "Kebutuhan Rumah" },
+                price: { base: 65000, discountPrice: 53900 },
+                stock: 3,
+                imgs: ["https://s2.bukalapak.com/img/78538955203/medium/data.jpeg"]
+            },
+            {
+                id: 4940370,
+                name: "Little B By MacBear Baju Anak Bayi Kaos Lengan Pendek Pippy Collection Animal Series Newborn-12 bulan",
+                category: { id: 1369, name: "Fashion Anak" },
+                price: { base: 109900, discountPrice: 10780 },
+                stock: 22,
+                imgs: ["https://s0.bukalapak.com/img/07120955203/medium/data.jpeg"]
+            },
+            {
+                id: 4940373,
+                name: "Parfum Mykonos Stilettos 50 ml",
+                category: { id: 8359, name: "Lainnya" },
+                price: { base: 179000, discountPrice: 127302 },
+                stock: 3,
+                imgs: ["https://s3.bukalapak.com/img/82457429203/medium/data.jpeg"]
+            },
+            {
+                id: 4940375,
+                name: "Kanso Living 280ml Air Humidifier Aroma Diffuser Lampu Tidur KL-DQ127 - Putih",
+                category: { id: 174, name: "Kebutuhan Rumah" },
+                price: { base: 299000, discountPrice: 174999 },
+                stock: 3,
+                imgs: ["https://s0.bukalapak.com/img/53638955203/medium/data.jpeg"]
+            },
+            {
+                id: 4940377,
+                name: "IT Wall Charger Adaptor 30w - White",
+                category: { id: 8599, name: "Lainnya" },
+                price: { base: 239900, discountPrice: 58800 },
+                stock: 3,
+                imgs: ["https://s3.bukalapak.com/img/35073100303/medium/data.jpeg"]
+            },
+            {
+                id: 4940383,
+                name: "MacBear Baju Anak-Remaja Laki-laki Kaos Koko Muslim Collection Kurta Addison 2-12 tahun",
+                category: { id: 1363, name: "Fashion Anak" },
+                price: { base: 239900, discountPrice: 58800 },
+                stock: 3,
+                imgs: ["https://s4.bukalapak.com/img/46809878203/medium/data.jpeg"]
+            },
+            {
+                id: 4940387,
+                name: "MacBear Baju Anak-Remaja Laki-laki Polo Anak-Remaja Sport Collection Jersey Anak-Remaja Spanyol Jerman Swedia Jepang Country Player 6 bulan-12 tahun",
+                category: { id: 1363, name: "Fashion Anak" },
+                price: { base: 162500, discountPrice: 58800 },
+                stock: 24,
+                imgs: ["https://s2.bukalapak.com/img/29598878203/medium/data.jpeg"]
+            },
+            {
+                id: 4940395,
+                name: "Little B By MacBear Baju Bayi Pippy Collection Newborn-12 bulan - stars",
+                category: { id: 1369, name: "Fashion Anak" },
+                price: { base: 115900, discountPrice: 14700 },
+                stock: 3,
+                imgs: ["https://s2.bukalapak.com/img/26796878203/medium/data.jpeg"]
+            },
+            {
+                id: 4940397,
+                name: "Parfum Mykonos Verve 50 ml",
+                category: { id: 8359, name: "Lainnya" },
+                price: { base: 179000, discountPrice: 127302 },
+                stock: 2,
+                imgs: ["https://s4.bukalapak.com/img/46457429203/medium/data.jpeg"]
+            },
+            {
+                id: 4940405,
+                name: "SEPATU ADIDAS NMD_S1 - GREY TWO - ID0360",
+                category: { id: 8593, name: "Lainnya" },
+                price: { base: 3999000, discountPrice: 2199999 },
+                stock: 2,
+                imgs: ["https://s0.bukalapak.com/img/55451048203/medium/data.jpeg"]
+            },
+            {
+                id: 4940407,
+                name: "Starco 3L Air Humidifier LED Lamp Pelembab Udara Pelembab Ruangan - Putih",
+                category: { id: 174, name: "Kebutuhan Rumah" },
+                price: { base: 1199000, discountPrice: 93100 },
+                stock: 3,
+                imgs: ["https://s2.bukalapak.com/img/26638955203/medium/data.jpeg"]
+            }
+        ];
+ 
+        const currency = new Intl.NumberFormat('id-ID', {
+            style: 'currency',
+            currency: 'IDR'
+        });
+ 
+        let tbl = `<table>
+            <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Price</th>
+            <th>Stock</th>
+            <th>Image</th>
+        </tr>`;
+        products.map((t) => {
+            tbl += `<tr>
+                <td>${t.id}</td>
+                <td>${t.name}</td>
+                <td>${t.category.name}</td>
+                <td><s>${currency.format(t.price.base)}</s> ${currency.format(t.price.discountPrice)}</td>
+                <td>${t.stock}</td>
+                <td><img alt="${t.name}" src="${t.imgs[0]}"></td>
+            </tr>`;
+        });
+        tbl += `</table>`;
+        document.body.innerHTML = tbl;
+    </script>
+</body>
+ 
+</html>
