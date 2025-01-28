@@ -1,0 +1,746 @@
+[
+  {
+    "id": 1,
+    "price": 19.99,
+    "title": "Wireless Mouse",
+    "description": "A high-precision wireless mouse with ergonomic design.",
+    "images": ["https://doran.id/wp-content/uploads/2023/10/Mouse-Wireless-Terbaik.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 101,
+      "name": "Tech Store"
+    },
+    "discount_percentage": 10
+  },
+  {
+    "id": 2,
+    "price": 25.99,
+    "title": "Laptop Stand",
+    "description": "Adjustable laptop stand for better posture.",
+    "images": ["https://i.pinimg.com/originals/77/17/79/7717793d9ea92d3a31f46c3fa51fa8a1.png", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 101,
+      "name": "Tech Store"
+    },
+    "discount_percentage": 5
+  },
+  {
+    "id": 3,
+    "price": 15.99,
+    "title": "USB-C Cable",
+    "description": "Durable USB-C to USB-A cable.",
+    "images": ["https://cdnp1.stackassets.com/312f0115b125a5f4e2a8a80c47197858214e7d6f/store/d0eed5c8a64f30f1d9b160bfaa0eb43ad62d2771a8d84b08f3af0971237f/product_33613_product_shots1.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 101,
+      "name": "Tech Store"
+    },
+    "discount_percentage": 10
+  },
+  {
+    "id": 4,
+    "price": 49.99,
+    "title": "Portable SSD",
+    "description": "Fast and compact portable SSD.",
+    "images": ["https://www.dhresource.com/600x600/f2/albu/g17/M01/EE/31/rBVa4l-0zIKAP5C4AAByVeB7O9o096.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 101,
+      "name": "Tech Store"
+    },
+    "discount_percentage": 15
+  },
+  {
+    "id": 5,
+    "price": 89.99,
+    "title": "Smartphone Gimbal",
+    "description": "3-axis gimbal for smartphone video stabilization.",
+    "images": ["https://fdirect.eu/wp-content/uploads/2020/12/Gimbal-reczny-FeiyuTech-Vlog-Pocket-2-do-smartfonow-rozowy_01.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 101,
+      "name": "Tech Store"
+    },
+    "discount_percentage": 20
+  },
+  {
+    "id": 6,
+    "price": 69.99,
+    "title": "Noise Cancelling Headphones",
+    "description": "Over-ear noise cancelling headphones.",
+    "images": ["https://images-na.ssl-images-amazon.com/images/I/51Zbqa3YfML.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 101,
+      "name": "Tech Store"
+    },
+    "discount_percentage": 15
+  },
+  {
+    "id": 7,
+    "price": 19.99,
+    "title": "Bluetooth Adapter",
+    "description": "USB Bluetooth 5.0 adapter.",
+    "images": ["https://dkvn8qg3s1uwi.cloudfront.net/static/images/dongle/WIFI-07-PNK.jpg?size=400,400", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 101,
+      "name": "Tech Store"
+    },
+    "discount_percentage": 10
+  },
+  {
+    "id": 8,
+    "price": 34.99,
+    "title": "Webcam Cover",
+    "description": "Privacy webcam cover for laptops and desktops.",
+    "images": ["https://m.media-amazon.com/images/I/51Ez4bIeJjL._AC_SL1000_.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 101,
+      "name": "Tech Store"
+    },
+    "discount_percentage": 5
+  },
+  {
+    "id": 9,
+    "price": 99.99,
+    "title": "Mechanical Keyboard",
+    "description": "A mechanical keyboard with customizable RGB lighting.",
+    "images": ["https://cdn.shopify.com/s/files/1/0012/4957/4961/files/pink_gaming_keyboard.jpg?v=1631087449", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 102,
+      "name": "Keyboard World"
+    },
+    "discount_percentage": 15
+  },
+  {
+    "id": 10,
+    "price": 59.99,
+    "title": "Gaming Keyboard",
+    "description": "Mechanical gaming keyboard with macro keys.",
+    "images": ["https://www.startech.com.bd/image/cache/catalog/keyboard/dareu/ek87/ek87-20-500x500.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 102,
+      "name": "Keyboard World"
+    },
+    "discount_percentage": 20
+  },
+  {
+    "id": 11,
+    "price": 49.99,
+    "title": "Ergonomic Keyboard",
+    "description": "Split ergonomic keyboard for better posture.",
+    "images": ["https://m.media-amazon.com/images/I/71C1XXW4mnL.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 102,
+      "name": "Keyboard World"
+    },
+    "discount_percentage": 10
+  },
+  {
+    "id": 12,
+    "price": 89.99,
+    "title": "Wireless Mechanical Keyboard",
+    "description": "Wireless mechanical keyboard with long battery life.",
+    "images": ["https://www.bhphotovideo.com/images/images2000x2000/logitech_g_920_010709_pop_keys_wireless_bluetooth_1668505.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 102,
+      "name": "Keyboard World"
+    },
+    "discount_percentage": 5
+  },
+  {
+    "id": 13,
+    "price": 79.99,
+    "title": "Compact Mechanical Keyboard",
+    "description": "Compact mechanical keyboard with red switches.",
+    "images": ["http://gadgetsin.com/uploads/2018/08/hexgears_x1_compact_wireless_mechanical_eyboard_3.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 102,
+      "name": "Keyboard World"
+    },
+    "discount_percentage": 10
+  },
+  {
+    "id": 14,
+    "price": 49.99,
+    "title": "RGB Keyboard",
+    "description": "RGB backlit keyboard with customizable lighting.",
+    "images": ["https://amptek.co.za/wp-content/uploads/2022/03/RD-K616-RGB-PW_wr_04.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 102,
+      "name": "Keyboard World"
+    },
+    "discount_percentage": 15
+  },
+  {
+    "id": 15,
+    "price": 109.99,
+    "title": "Low-Profile Mechanical Keyboard",
+    "description": "Low-profile mechanical keyboard with quiet keys.",
+    "images": ["https://thinkcomputers.org/wp-content/uploads/2023/06/lofree-flow-40.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 102,
+      "name": "Keyboard World"
+    },
+    "discount_percentage": 20
+  },
+  {
+    "id": 16,
+    "price": 139.99,
+    "title": "Custom Mechanical Keyboard",
+    "description": "Customizable mechanical keyboard with hot-swappable switches.",
+    "images": ["https://cybernews.com/wp-content/uploads/2021/03/ygb8zVFacG66hM8H32_ncgmx5ys1vtHgx0Rrdl5B0Uw.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 102,
+      "name": "Keyboard World"
+    },
+    "discount_percentage": 25
+  },
+  {
+    "id": 17,
+    "price": 49.99,
+    "title": "Bluetooth Speaker",
+    "description": "A portable Bluetooth speaker with superior sound quality.",
+    "images": ["https://i5.walmartimages.com/asr/a6ca7776-7338-4442-82b3-f0d99d2a08b8.8076d77afe17ea68a3476cd28a9bd378.jpeg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 103,
+      "name": "Sound Hub"
+    },
+    "discount_percentage": 5
+  },
+  {
+    "id": 18,
+    "price": 59.99,
+    "title": "Smart Speaker",
+    "description": "Voice-controlled smart speaker with great sound.",
+    "images": ["https://d3fa68hw0m2vcc.cloudfront.net/707/230976593.jpeg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 103,
+      "name": "Sound Hub"
+    },
+    "discount_percentage": 10
+  },
+  {
+    "id": 19,
+    "price": 129.99,
+    "title": "Home Theater System",
+    "description": "5.1 surround sound home theater system.",
+    "images": ["https://123free3dmodels.com/media/2019/11/Pink-home-theatre-system-3D-Model.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 103,
+      "name": "Sound Hub"
+    },
+    "discount_percentage": 15
+  },
+  {
+    "id": 20,
+    "price": 199.99,
+    "title": "Soundbar",
+    "description": "High-quality soundbar with subwoofer.",
+    "images": ["https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/91/MTA-155005424/no-brand_no-brand_full05.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 103,
+      "name": "Sound Hub"
+    },
+    "discount_percentage": 20
+  },
+  {
+    "id": 21,
+    "price": 79.99,
+    "title": "Portable PA System",
+    "description": "Portable PA system with wireless microphone.",
+    "images": ["https://www.picclickimg.com/1zAAAOSwwM1lp~WT/Moukey-Karaoke-Machine-Pink-Portable-Bluetooth-PA-System.webp", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 103,
+      "name": "Sound Hub"
+    },
+    "discount_percentage": 5
+  },
+  {
+    "id": 22,
+    "price": 29.99,
+    "title": "Wireless Earphones",
+    "description": "In-ear wireless earphones with good bass.",
+    "images": ["https://i5.walmartimages.com/asr/a172ffbc-9727-4233-b2a5-c203369cbb3b.a0eaf7ddbea6c4d20b0fe1ab18579f80.jpeg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 103,
+      "name": "Sound Hub"
+    },
+    "discount_percentage": 10
+  },
+  {
+    "id": 23,
+    "price": 99.99,
+    "title": "Noise Cancelling Earbuds",
+    "description": "Earbuds with active noise cancelling technology.",
+    "images": ["https://i.ebayimg.com/images/g/FWgAAOSw0w5eo49Q/s-l640.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 103,
+      "name": "Sound Hub"
+    },
+    "discount_percentage": 15
+  },
+  {
+    "id": 24,
+    "price": 149.99,
+    "title": "Wireless Speaker System",
+    "description": "Multi-room wireless speaker system.",
+    "images": ["https://www.bhphotovideo.com/images/images2000x2000/sony_srsbtv5_pink_bluetooth_wireless_speaker_system_pink_922930.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 103,
+      "name": "Sound Hub"
+    },
+    "discount_percentage": 20
+  },
+  {
+    "id": 25,
+    "price": 29.99,
+    "title": "USB-C Hub",
+    "description": "A versatile USB-C hub with multiple ports for connectivity.",
+    "images": ["https://img.joomcdn.net/eabfa7adb5c7cf86ade4083ac30c0adb6d4fd5b7_1024_1024.jpeg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 104,
+      "name": "Accessory Depot"
+    },
+    "discount_percentage": 20
+  },
+  {
+    "id": 26,
+    "price": 15.99,
+    "title": "USB Flash Drive",
+    "description": "32GB USB 3.0 flash drive.",
+    "images": ["https://static1.nordic.pictures/865530-thickbox_default/silicon-power-flash-drive-8gb-blaze-b05-usb-30-pink.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 104,
+      "name": "Accessory Depot"
+    },
+    "discount_percentage": 5
+  },
+  {
+    "id": 27,
+    "price": 25.99,
+    "title": "Memory Card Reader",
+    "description": "All-in-one memory card reader.",
+    "images": ["https://impecca.com/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/f/i/file_name_141.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 104,
+      "name": "Accessory Depot"
+    },
+    "discount_percentage": 10
+  },
+  {
+    "id": 28,
+    "price": 29.99,
+    "title": "Wireless Charger",
+    "description": "Qi wireless charger for smartphones.",
+    "images": ["https://m.media-amazon.com/images/I/61FA0hBzq+L._AC_SL1500_.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 104,
+      "name": "Accessory Depot"
+    },
+    "discount_percentage": 15
+  },
+  {
+    "id": 29,
+    "price": 49.99,
+    "title": "Power Bank",
+    "description": "20000mAh power bank with fast charging.",
+    "images": ["https://i5.walmartimages.com/asr/d320e2a8-bf8c-4979-8d99-e86e37010875_1.a34c8af5f2d63ad3724d966e2ab8968b.jpeg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 104,
+      "name": "Accessory Depot"
+    },
+    "discount_percentage": 20
+  },
+  {
+    "id": 30,
+    "price": 19.99,
+    "title": "Cable Organizer",
+    "description": "Magnetic cable organizer for desks.",
+    "images": ["https://m.media-amazon.com/images/I/71lLLnED-xL._AC_SS450_.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 104,
+      "name": "Accessory Depot"
+    },
+    "discount_percentage": 5
+  },
+  {
+    "id": 31,
+    "price": 14.99,
+    "title": "Laptop Sleeve",
+    "description": "Protective laptop sleeve for 13-inch laptops.",
+    "images": ["https://i5.walmartimages.com/asr/da64e3cd-1a99-4e0d-9913-b584aa711b0c_1.4ee3736bb7fc7b811829c66478dce39c.jpeg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 104,
+      "name": "Accessory Depot"
+    },
+    "discount_percentage": 10
+  },
+  {
+    "id": 32,
+    "price": 34.99,
+    "title": "Tablet Stand",
+    "description": "Adjustable stand for tablets and e-readers.",
+    "images": ["https://www.theplasmacentre.com/images/sized/zoom/products_24594_pink-with-tab2.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 104,
+      "name": "Accessory Depot"
+    },
+    "discount_percentage": 15
+  },
+  {
+    "id": 33,
+    "price": 59.99,
+    "title": "Gaming Headset",
+    "description": "A comfortable gaming headset with noise-cancelling microphone.",
+    "images": ["https://images.tokopedia.net/img/cache/700/VqbcmM/2023/5/19/2249ee93-e28b-442d-af6d-b15349df0873.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 105,
+      "name": "Gamer's Paradise"
+    },
+    "discount_percentage": 25
+  },
+  {
+    "id": 34,
+    "price": 79.99,
+    "title": "Gaming Chair",
+    "description": "Ergonomic gaming chair with lumbar support.",
+    "images": ["https://i5.walmartimages.com/asr/b4f042a6-c247-432a-a46c-241b768ba708.aa2091b98c9bfed8f7b9edc6801d8297.jpeg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 105,
+      "name": "Gamer's Paradise"
+    },
+    "discount_percentage": 20
+  },
+  {
+    "id": 35,
+    "price": 129.99,
+    "title": "Gaming Monitor",
+    "description": "27-inch gaming monitor with 144Hz refresh rate.",
+    "images": ["https://cdn.mwave.com.au/images/400/aoc_agon_27_170hz_qhd_1ms_hdr_ips_lcd_premium_gaming_monitor_pink_edition_ac56435_2.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 105,
+      "name": "Gamer's Paradise"
+    },
+    "discount_percentage": 15
+  },
+  {
+    "id": 36,
+    "price": 59.99,
+    "title": "Gaming Mouse",
+    "description": "High-DPI gaming mouse with customizable buttons.",
+    "images": ["https://fixthephoto.com/blog/UserFiles/Image/333_1/pink-mouse.png", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 105,
+      "name": "Gamer's Paradise"
+    },
+    "discount_percentage": 10
+  },
+  {
+    "id": 37,
+    "price": 49.99,
+    "title": "Gaming Mouse Pad",
+    "description": "Large gaming mouse pad with RGB lighting.",
+    "images": ["https://i5.walmartimages.com/asr/89fd2a85-ca13-405d-8bce-4e266a4cd8e3_1.24f96f5067bec042cbf08128246a03fa.jpeg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 105,
+      "name": "Gamer's Paradise"
+    },
+    "discount_percentage": 5
+  },
+  {
+    "id": 38,
+    "price": 99.99,
+    "title": "Streaming Webcam",
+    "description": "1080p streaming webcam with ring light.",
+    "images": ["https://d1gb7gicmr8iau.cloudfront.net/fit-in/1920x800/Media/Images/Product/Visual/17203_pictures_product_visual_1.png", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 105,
+      "name": "Gamer's Paradise"
+    },
+    "discount_percentage": 20
+  },
+  {
+    "id": 39,
+    "price": 119.99,
+    "title": "VR Headset",
+    "description": "Virtual reality headset with motion controllers.",
+    "images": ["https://d.scdn.gr/images/sku_main_images/028341/28341703/20210416090228_shinecon_vr_headset_3_0_pink.jpeg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 105,
+      "name": "Gamer's Paradise"
+    },
+    "discount_percentage": 25
+  },
+  {
+    "id": 40,
+    "price": 29.99,
+    "title": "Game Controller",
+    "description": "Wireless game controller for PC and console.",
+    "images": ["https://images-na.ssl-images-amazon.com/images/I/41I16T5hrqS._AC_SL1024_.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 105,
+      "name": "Gamer's Paradise"
+    },
+    "discount_percentage": 10
+  },
+  {
+    "id": 41,
+    "price": 79.99,
+    "title": "Smartwatch",
+    "description": "A stylish smartwatch with health tracking features.",
+    "images": ["https://mudahla.com/wp-content/uploads/2020/07/Pink-600x600.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 106,
+      "name": "Watch Store"
+    },
+    "discount_percentage": 10
+  },
+  {
+    "id": 42,
+    "price": 99.99,
+    "title": "Fitness Tracker",
+    "description": "Advanced fitness tracker with heart rate monitor.",
+    "images": ["https://www.elekdirect.co.uk/wp-content/uploads/2022/09/55024471_huawei_watchband_01.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 106,
+      "name": "Watch Store"
+    },
+    "discount_percentage": 15
+  },
+  {
+    "id": 43,
+    "price": 149.99,
+    "title": "Luxury Smartwatch",
+    "description": "High-end smartwatch with premium materials.",
+    "images": ["https://img.gkbcdn.com/s3/p/2019-04-03/huawei-honor-dream-smartwatch-built-in-gps-ceramic-bezel-pink-1571984527736.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 106,
+      "name": "Watch Store"
+    },
+    "discount_percentage": 20
+  },
+  {
+    "id": 44,
+    "price": 59.99,
+    "title": "Hybrid Smartwatch",
+    "description": "Hybrid smartwatch with traditional watch hands.",
+    "images": ["https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6521/6521297cv3d.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 106,
+      "name": "Watch Store"
+    },
+    "discount_percentage": 10
+  },
+  {
+    "id": 45,
+    "price": 79.99,
+    "title": "Kid's Smartwatch",
+    "description": "Smartwatch designed for kids with parental controls.",
+    "images": ["https://www.vtech.com.au/assets/data/products/%7B0B87BF87-D13F-4EC0-B13B-D16F039A982F%7D/images/DXPink1_large.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 106,
+      "name": "Watch Store"
+    },
+    "discount_percentage": 5
+  },
+  {
+    "id": 46,
+    "price": 199.99,
+    "title": "GPS Smartwatch",
+    "description": "Smartwatch with built-in GPS for tracking runs.",
+    "images": ["https://static3.nordic.pictures/37136255-thickbox_default/forever-smartwatch-gps-kids-find-me-2-kw-210-pink.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 106,
+      "name": "Watch Store"
+    },
+    "discount_percentage": 15
+  },
+  {
+    "id": 47,
+    "price": 249.99,
+    "title": "Diving Smartwatch",
+    "description": "Smartwatch designed for underwater activities.",
+    "images": ["https://www.ockommerce.com/wp-content/uploads/2021/10/6858-9fe775579c2210afa272afea84134238-600x600.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 106,
+      "name": "Watch Store"
+    },
+    "discount_percentage": 20
+  },
+  {
+    "id": 48,
+    "price": 99.99,
+    "title": "Classic Smartwatch",
+    "description": "Smartwatch with classic design and smart features.",
+    "images": ["https://www.uniquejewelrys.com/wp-content/uploads/2020/03/Michael-Kors-Pink-Womens-Smartwatch-Runway-Touchscreen-Stainless-Steel-Leather-Model-MKT5055-3-1024x1024.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 106,
+      "name": "Watch Store"
+    },
+    "discount_percentage": 10
+  },
+  {
+    "id": 49,
+    "price": 39.99,
+    "title": "External Hard Drive",
+    "description": "A 1TB external hard drive with fast data transfer speeds.",
+    "images": ["https://c1.neweggimages.com/ProductImageCompressAll1280/22-211-050-02.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 107,
+      "name": "Storage Solutions"
+    },
+    "discount_percentage": 5
+  },
+  {
+    "id": 50,
+    "price": 69.99,
+    "title": "SSD External Drive",
+    "description": "500GB SSD external drive with high-speed data transfer.",
+    "images": ["https://www.ucc.com.bd/image/cache/catalog/ssd/transcend/TS1TESD310P/2-550x550.jpg.webp", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 107,
+      "name": "Storage Solutions"
+    },
+    "discount_percentage": 10
+  },
+  {
+    "id": 51,
+    "price": 89.99,
+    "title": "Network Attached Storage",
+    "description": "2-bay NAS for home and small office use.",
+    "images": ["https://images.pcworld.com/images/article/2012/03/qnap_ts459_pro_ii_turbo_nas_nas_server-11340524.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 107,
+      "name": "Storage Solutions"
+    },
+    "discount_percentage": 15
+  },
+  {
+    "id": 52,
+    "price": 129.99,
+    "title": "Portable SSD",
+    "description": "1TB portable SSD with USB 3.1 interface.",
+    "images": ["https://www.ucc.com.bd/image/cache/catalog/ssd/transcend/TS1TESD310P/TS1TESD310P-550x550.jpg.webp", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 107,
+      "name": "Storage Solutions"
+    },
+    "discount_percentage": 20
+  },
+  {
+    "id": 53,
+    "price": 39.99,
+    "title": "USB Flash Drive Set",
+    "description": "Set of 3 USB 3.0 flash drives (32GB each).",
+    "images": ["https://image.dhgate.com/0x0s/f2-albu-g8-M00-39-1B-rBVaVF3qWCeASe5eAAGHSb6mGIw585.jpg/pink-10pcs-rectangle-usb-2-0-flash-drives.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 107,
+      "name": "Storage Solutions"
+    },
+    "discount_percentage": 10
+  },
+  {
+    "id": 54,
+    "price": 79.99,
+    "title": "Wireless Backup Drive",
+    "description": "Wireless backup drive for automatic backups.",
+    "images": ["https://www.digitaltrends.com/wp-content/uploads/2016/06/wd_my-passport-wireless-pro_5.jpg?p=1", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 107,
+      "name": "Storage Solutions"
+    },
+    "discount_percentage": 15
+  },
+  {
+    "id": 55,
+    "price": 49.99,
+    "title": "Secure USB Drive",
+    "description": "USB drive with hardware encryption.",
+    "images": ["https://m.media-amazon.com/images/I/51U48UFxmmL.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 107,
+      "name": "Storage Solutions"
+    },
+    "discount_percentage": 20
+  },
+  {
+    "id": 56,
+    "price": 19.99,
+    "title": "Memory Card",
+    "description": "128GB microSD memory card with adapter.",
+    "images": ["https://cdn.shopify.com/s/files/1/2650/0192/products/20201014_205305_580x@2x.jpg?v=1602744476", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 107,
+      "name": "Storage Solutions"
+    },
+    "discount_percentage": 5
+  },
+  {
+    "id": 57,
+    "price": 89.99,
+    "title": "HD Webcam",
+    "description": "A high-definition webcam with built-in microphone.",
+    "images": ["https://images.kabum.com.br/produtos/fotos/431014/webcam-logitech-brio-300-full-hd-1080p-30-fps-usb-c-microfone-integrado-rosa-960-001446_1678708559_original.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 108,
+      "name": "Camera World"
+    },
+    "discount_percentage": 15
+  },
+  {
+    "id": 58,
+    "price": 149.99,
+    "title": "Digital Camera",
+    "description": "Compact digital camera with 20MP sensor.",
+    "images": ["https://www.ephotozine.com/articles/top-10-best-pink-digital-cameras-reviewed-by-ephotozine-16117/images/highres-canon-PINK_IXUS_125_HS_FSL_HOR_1344938692.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 108,
+      "name": "Camera World"
+    },
+    "discount_percentage": 10
+  },
+  {
+    "id": 59,
+    "price": 89.99,
+    "title": "Webcam for Streaming",
+    "description": "HD webcam designed for streaming with autofocus.",
+    "images": ["https://d1gb7gicmr8iau.cloudfront.net/fit-in/1920x800/Media/Images/Product/Visual/16175_pictures_product_visual_1.png", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 108,
+      "name": "Camera World"
+    },
+    "discount_percentage": 5
+  },
+  {
+    "id": 60,
+    "price": 299.99,
+    "title": "DSLR Camera",
+    "description": "Entry-level DSLR camera with 18-55mm lens.",
+    "images": ["https://thumbs.dreamstime.com/z/lens-dslr-camera-isolated-pink-background-photography-equipment-concept-155991550.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 108,
+      "name": "Camera World"
+    },
+    "discount_percentage": 15
+  },
+  {
+    "id": 61,
+    "price": 49.99,
+    "title": "Camera Tripod",
+    "description": "Lightweight and portable camera tripod.",
+    "images": ["https://www.bhphotovideo.com/images/images2500x2500/mefoto_a0320q00h_daytrip_tripod_kit_hot_1030821.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 108,
+      "name": "Camera World"
+    },
+    "discount_percentage": 10
+  },
+  {
+    "id": 62,
+    "price": 69.99,
+    "title": "Action Camera",
+    "description": "Waterproof action camera with 4K recording.",
+    "images": ["https://2.bp.blogspot.com/_gVDUbxBeWUM/TIsWdPaEQiI/AAAAAAAAAJM/i5nuxj_aTbw/s1600/dv130s-pink_lgfront.jpg", "https://via.placeholder.com/200"],
+    "shop": {
+      "id": 108,
+      "name": "Camera World"
+    },
+    "discount_percentage": 20
+  }
+]

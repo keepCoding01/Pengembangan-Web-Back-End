@@ -1,0 +1,12 @@
+[
+  { "id": 1, "aiport_name": "Newman Airport", "price": "8.70", "image": "http://dummyimage.com/208x100.png/5fa2dd/ffffff", "languange": "Somali" },
+  { "id": 2, "aiport_name": "Moises R. Espinosa Airport", "price": "9.92", "image": "http://dummyimage.com/145x100.png/cc0000/ffffff", "languange": "Czech" },
+  { "id": 3, "aiport_name": "Girdwood Airport", "price": "5.22", "image": "http://dummyimage.com/171x100.png/dddddd/000000", "languange": "Aymara" },
+  { "id": 4, "aiport_name": "Fazenda Tucunaré Airport", "price": "4.86", "image": "http://dummyimage.com/108x100.png/dddddd/000000", "languange": "Pashto" },
+  { "id": 5, "aiport_name": "Injune Airport", "price": "2.12", "image": "http://dummyimage.com/132x100.png/ff4444/ffffff", "languange": "Fijian" },
+  { "id": 6, "aiport_name": "Digby / Annapolis Regional Airport", "price": "5.57", "image": "http://dummyimage.com/124x100.png/ff4444/ffffff", "languange": "Kazakh" },
+  { "id": 7, "aiport_name": "Parasi Airport", "price": "9.74", "image": "http://dummyimage.com/233x100.png/ff4444/ffffff", "languange": "Swedish" },
+  { "id": 8, "aiport_name": "Kings Canyon Airport", "price": "6.42", "image": "http://dummyimage.com/170x100.png/dddddd/000000", "languange": "Croatian" },
+  { "id": 9, "aiport_name": "RAF Northolt", "price": "6.65", "image": "http://dummyimage.com/128x100.png/dddddd/000000", "languange": "Zulu" },
+  { "id": 10, "aiport_name": "Ryan's Creek Aerodrome", "price": "6.50", "image": "http://dummyimage.com/233x100.png/5fa2dd/ffffff", "languange": "Hebrew" }
+]
