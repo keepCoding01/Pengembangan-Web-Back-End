@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Authentication</title>
+    <link rel="stylesheet" href="https://bulma.io/vendor/fontawesome-free-5.15.2-web/css/all.min.css" />
+    <link rel="stylesheet" href="https://www.unpkg.com/bulma@0.9.3/css/bulma.css" />
+  </head>
+
+  <body>
+    <div id="app" class="container is-max-desktop mt-5">
+      <h1 class="title">Register Form</h1>
+      <form action="/register" method="post" name="regist">
+        <div class="field">
+          <p class="control has-icons-left">
+            <input class="input" type="text" name="username" placeholder="Username" required />
+            <span class="icon is-small is-left">
+              <i class="fas fa-lock"></i>
+            </span>
+          </p>
+        </div>
+        <div class="field">
+          <p class="control has-icons-left has-icons-right">
+            <input class="input" type="email" name="email" placeholder="Email" required />
+            <span class="icon is-small is-left">
+              <i class="fas fa-envelope"></i>
+            </span>
+          </p>
+        </div>
+        <div class="field">
+          <p class="control has-icons-left">
+            <input class="input" type="password" name="password" placeholder="Password" required />
+            <span class="icon is-small is-left">
+              <i class="fas fa-lock"></i>
+            </span>
+          </p>
+        </div>
+
+        <!-- Menampilkan dropdown role hanya jika Super Admin login -->
+        <% if (role === 'Super Admin') { %>
+        <div class="field">
+          <label for="role">Role</label>
+          <div class="control">
+            <div class="select">
+              <select name="role" required>
+                <option value="User">User</option>
+                <option value="Admin">Admin</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <% } else { %>
+        <input type="hidden" name="role" value="User" />
+        <% } %> <% if (message) { %>
+        <div class="field">
+          <span class="tag is-link is-danger"><%= message %></span>
+        </div>
+        <% } %>
+
+        <div class="field">
+          <p class="control">
+            <button class="button is-success">Register</button>
+          </p>
+        </div>
+      </form>
+      <p>Sudah punya akun? <a href="/login">Login here</a>.</p>
+    </div>
+  </body>
+</html>

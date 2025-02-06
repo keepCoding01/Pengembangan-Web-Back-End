@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REST API - MVC</title>
+    <link rel="stylesheet" href="https://www.unpkg.com/bulma@0.9.3/css/bulma.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar is-info" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a href="/" class="navbar-item"> Bunny Web </a>
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+        <div class="navbar-menu">
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="mx-3"><%= account ? account.email : 'No Account' %></div>
+              <div class="buttons"><%- (!account ? '<a href="/login" class="button is-light">Login</a>' : '<a href="/logout" class="button is-light">Logout</a>') %></div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div id="app" class="container is-max-desktop mt-5">
+      <h1 class="title">Notes List</h1>
+      <div>
+        <% if (account) { %>
+        <a href="/create" class="button is-success">Add New</a>
+        <% } %>
+        <table class="table is-striped is-bordered mt-3 is-fullwidth" style="margin: 10px auto">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Title</th>
+              <th>Note</th>
+              <th>Category</th>
+              <th>User</th>
+              <% if (account) { %>
+              <th class="has-text-centered">Actions</th>
+              <% } %>
+            </tr>
+          </thead>
+          <tbody>
+            <% note.forEach((el) => { %>
+            <tr>
+              <td><%= el.id %></td>
+              <td><%= el.title %></td>
+              <td><%= el.note %></td>
+              <td><%= el.category?.category_name %></td>
+              <td><%= el.account ? el.account.username : 'No User' %></td>
+
+              <% if (account) { %>
+              <td class="has-text-centered">
+                <% if ( account.id === el.account_id && account.role === 'User') { %>
+                <a href="/edit/<%= el.id %>" class="button is-warning is-small">Edit</a>
+                <button onclick="del('<%= el.id %>')" class="button is-danger is-small" style="margin-left: 5px">Delete</button>
+                <% } %> <% if (account.role === 'Admin' || account.role === 'Super Admin') { %>
+                <a href="/edit/<%= el.id %>" class="button is-warning is-small">Edit</a>
+                <button onclick="del('<%= el.id %>')" class="button is-danger is-small" style="margin-left: 5px">Delete</button>
+                <% } %>
+              </td>
+              <% } %>
+            </tr>
+            <% }) %>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <script>
+      let del = (id) => {
+        axios
+          .delete("/api/notes/" + id)
+          .then((result) => {
+            alert("Info status : " + result.status);
+            location.reload();
+          })
+          .catch((err) => {
+            alert("Error: " + err);
+          });
+      };
+    </script>
+  </body>
+</html>
