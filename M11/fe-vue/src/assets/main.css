@@ -1,0 +1,15 @@
+.table-container {
+  margin: 20px auto;
+  width: 100%;
+  text-align: center;
+}
+
+.table th,
+.table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.button.is-success {
+  margin-bottom: 15px;
+}
