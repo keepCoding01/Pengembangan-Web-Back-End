@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REST API - MVC</title>
+    <link rel="stylesheet" href="https://www.unpkg.com/bulma@0.9.3/css/bulma.css">
+</head>
+<body>
+    <div id="app" class="container is-max-desktop mt-5">
+        <h1 class="title">Edit Users</h1>
+        <div class="field">
+            <label class="label">User Name</label>
+            <div class="control"><input type="text " placeholder="User Name" class="input" name="name" id="name" value="<%=user.user_name%>"></div>
+        </div>
+        <div class="field">
+            <label class="label">User Email</label>
+            <div class="control"><input type="email" placeholder="User Email" class="input" name="email" id="email" value=<%= user.user_email %>></div>
+        </div>
+        <div class="field">
+            <label class="label">User Address</label>
+            <div class="control"><input type="text " placeholder="User Address" class="input" name="address" id="address" value="<%=user.user_address%>"></div>
+        </div>
+        <div class="field">
+            <label class="label">User Phone</label>
+            <div class="control"><input type="text " placeholder="User Phone" class="input" name="phone" id="phone" value="<%=user.user_phone%>"></div>
+        </div>
+        <div class="control">
+            <button class="button is-warning" id="save" onclick=<%="edit(" + user.user_id + ")" %> >UPDATE</button>
+        </div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <script>
+        const edit = (user_id) => {
+            axios ({
+                method : 'put',
+                url : '/api/user/' + user_id,
+                data: {
+                    user_name: document.getElementById("name").value,
+                    user_email: document.getElementById("email").value,
+                    user_address: document.getElementById("address").value,
+                    user_phone: document.getElementById("phone").value,
+                    
+          },
+            }).then((result) => {
+                alert("Info status : " + result.status)
+                window.location = '/'
+            }).catch((err) => {
+                alert("error" + err)
+            })
+        }
+    </script>
+</body>
+</html>
