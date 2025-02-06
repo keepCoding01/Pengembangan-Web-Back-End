@@ -1,0 +1,21 @@
+/* Background Color */
+.bg-lightblue {
+  background-color: #add8e6; /* Warna biru muda */
+}
+
+/* Navbar */
+.navbar {
+  background-color: #007bff; /* Warna biru navbar */
+}
+
+.nav-link {
+  color: white !important;
+  margin-left: 15px;
+}
+
+/* Title Styling */
+.unknown-title {
+  font-weight: bold;
+  font-size: 3rem; /* Ukuran teks besar */
+  letter-spacing: 2px; /* Jarak antar huruf */
+}

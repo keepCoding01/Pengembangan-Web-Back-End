@@ -1,0 +1,39 @@
+/* Background Color */
+.bg-lightblue {
+  background-color: #add8e6; /* Warna biru muda */
+}
+
+/* Navbar */
+.navbar {
+  background-color: #007bff; /* Warna biru navbar */
+}
+
+.nav-link {
+  color: white !important;
+  margin-left: 15px;
+}
+
+/* Title Styling */
+.about-title {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+/* Line Styling */
+.about-line {
+  width: 50px;
+  height: 2px;
+  background-color: white;
+  margin: 0 10px;
+}
+
+/* Star Icon Styling */
+.star-icon {
+  font-size: 1.5rem;
+  color: white;
+}
+
+/* Profile Image Styling */
+.profile-image img {
+  border: 3px solid white;
+}
